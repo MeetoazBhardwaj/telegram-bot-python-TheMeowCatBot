@@ -91,6 +91,13 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text('used a bad word, me hurt :('))
     elif 'meow' in message.text.lower():
         bot.send_animation(message.chat.id, meowgif.giveMeowGif())
+    elif 'sing' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("sings meow-meow 🎶"))
+    elif 'again' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("again? 🙄"))
+    elif 'exam' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("ʕっ•ᴥ•ʔっ You got this!! 🐝🎶"))
+
 
 
 print('Bot Working . . .')
