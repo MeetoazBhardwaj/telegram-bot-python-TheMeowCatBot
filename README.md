@@ -22,3 +22,4 @@ This repository is the code behind the fun and interactive Telegram bot that bri
 Special shoutout to @kyechan99 for [this](https://dev.to/kyechan99/make-your-profile-readme-colorful-3gag) amazing article on how to make a colorful README. Thanks for the inspiration!
 
 
+<img src="https://t.bkit.co/w_63f6b39de0a62.gif" />
