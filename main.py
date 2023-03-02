@@ -129,6 +129,8 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text("again? 🙄"))
     elif 'exam' in message.text.lower():
         bot.send_message(message.chat.id, username_text("ʕっ•ᴥ•ʔっ You got this!! 🐝🎶"))
+    elif 'joke' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("Jokes in cat . . "))                      
 
 print('Bot Working . . .')
 while True:
