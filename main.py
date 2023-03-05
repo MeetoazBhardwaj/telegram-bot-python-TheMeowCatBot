@@ -129,8 +129,15 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text("again? 🙄"))
     elif 'exam' in message.text.lower():
         bot.send_message(message.chat.id, username_text("ʕっ•ᴥ•ʔっ You got this!! 🐝🎶"))
+        
+    # https://github.com/yasminehh19
+    elif 'math' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("1+1=2, yeah, i love u too <3"))
+    elif 'sleep' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("pillows and bolsters are waiting for you there..😴😪"))
     elif 'joke' in message.text.lower():
         bot.send_message(message.chat.id, username_text("Jokes in cat . . "))                      
+
 
 print('Bot Working . . .')
 while True:
