@@ -131,6 +131,8 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text("ʕっ•ᴥ•ʔっ You got this!! 🐝🎶"))
     elif 'math' in message.text.lower():
         bot.send_message(message.chat.id, username_text("1+1=2, yeah, i love u too <3"))
+    elif 'sleep' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("pillows and bolsters are waiting for you there..😴😪"))
 
 
 print('Bot Working . . .')
