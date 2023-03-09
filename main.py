@@ -136,7 +136,11 @@ def get_text_messages(message):
     elif 'sleep' in message.text.lower():
         bot.send_message(message.chat.id, username_text("pillows and bolsters are waiting for you there..😴😪"))
     elif 'joke' in message.text.lower():
-        bot.send_message(message.chat.id, username_text("Jokes in cat . . "))                      
+        bot.send_message(message.chat.id, username_text("Jokes in cat . . "))
+    elif 'hungry' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("go eat if you don't want to get acid reflux😤"))
+    elif 'smile' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("smiling too much can keep you young😉🤗"))
 
 
 print('Bot Working . . .')
