@@ -141,6 +141,8 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text("go eat if you don't want to get acid reflux😤"))
     elif 'smile' in message.text.lower():
         bot.send_message(message.chat.id, username_text("smiling too much can keep you young😉🤗"))
+elif 'tired' in message.text.lower():
+            bot.send_message(message.chat.id, username_text("its time for lie down in bed!!😴😴")) 
 
 
 print('Bot Working . . .')
