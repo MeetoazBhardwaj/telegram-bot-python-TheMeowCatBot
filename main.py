@@ -145,6 +145,13 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, username_text("it's time to lie down in bed!!😴😴"))
     elif 'lol' in message.text.lower():
         bot.send_message(message.chat.id, username_text("What's funny? I'm so curious🤔"))
+    elif 'eat' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("eat ur favorite food!! :)"))
+    elif 'laugh' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("aoakwaokwaokwoawkoakw"))
+    elif 'think' in message.text.lower():
+        bot.send_message(message.chat.id, username_text("dont let ur head explode"))
+        
 
 
 
